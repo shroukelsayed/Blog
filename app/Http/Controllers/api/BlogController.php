@@ -15,7 +15,7 @@ class BlogController extends Controller
      	// dd($data);
      	Blog::create($data);
         return Response()->json(array(
-                               'status'=>'success',
+                               // 'status'=>'success',
                                "messages"=> array( ["text"=> "great successfully added"] )
 
                                 
